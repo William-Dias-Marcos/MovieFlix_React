@@ -5,12 +5,14 @@ import './App.css'
 import categories from './API/api';
 // components
 import Row from './components/Row'
+import Banner from './components/Banner';
 
 function App() {
   return <div className="App">
     {/*Navbar,
       destaque,
     */}
+    <Banner/>
     {categories.map((category)=>{
       return (
         <Row 
