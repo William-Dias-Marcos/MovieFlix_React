@@ -42,6 +42,7 @@
 }
 
 .trailer{
+  margin-left: 0px;
   display: flex;
   justify-content: center;
 }
