@@ -17,12 +17,12 @@ function Row({ title, path, isLarge }){
   const [trailerUrl, setTrailerUrl] = useState("");
 
   const handleOnClick = (movie)=>{
-    if(trailerUrl){
+    if (trailerUrl){
       setTrailerUrl("");
     } else{
       movieTrailer(movie.title || movie.name || movie.original_name || "")
       .then((url)=>{
-        setTrailerUrl(url)
+        setTrailerUrl(url);
       })
       .catch((error =>{
         console.log("Error fetching movie trailer: ", error)
@@ -62,7 +62,9 @@ function Row({ title, path, isLarge }){
           )
         })}
       </div>
-      {trailerUrl && <ReactPlayer url={trailerUrl} playing={true}/>}
+      <div className={styles.trailer}>
+      {trailerUrl && <ReactPlayer url={trailerUrl} playing={false}/>}
+      </div>
     </div>
   )
 }

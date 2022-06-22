@@ -40,3 +40,9 @@
 .movieLarge:hover{
   transform: scale(1.08);
 }
+
+.trailer{
+  display: flex;
+  justify-content: center;
+}
+
