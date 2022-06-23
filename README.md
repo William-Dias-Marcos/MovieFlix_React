@@ -19,7 +19,11 @@ https://movieflixreact.netlify.app/
 ## 📱 Layout da Aplicação
 
 <p text  align="center">
-<img img width= "700" src= ""> 
+<img img width= "700" src= "https://github.com/William-Dias-Marcos/MovieFlix_React/blob/main/to_readme/gif.gif"> 
+</p>
+
+<p text  align="center">
+<img img width= "300" src= "https://github.com/William-Dias-Marcos/MovieFlix_React/blob/main/to_readme/img.jpg"> 
 </p>
 
 
